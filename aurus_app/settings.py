@@ -89,10 +89,10 @@ WSGI_APPLICATION = 'aurus_app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mortgage_db',
-        'USER': 'mortgage_user',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',
+        'NAME': 'postgres',
+        'USER': 'ub999',
+        'PASSWORD': 'DFBFcc8eb8!',
+        'HOST': 'aurus-app-dokrunch.postgres.database.azure.com',
         'PORT': '5432',
     }
 }

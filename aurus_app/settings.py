@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-xos!e6vk4v@$o@qnil7#%da-gb0r41go^bww*yt052xesm8@c3
 DEBUG = True
 
 ALLOWED_HOSTS = ['healthcheck.railway.app', 'web-production-29545.up.railway.app', 'https://web-production-29545.up.railway.app']
-CSRF_TRUSTED_ORIGINS = ['healthcheck.railway.app', 'web-production-29545.up.railway.app', 'https://web-production-29545.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://web-production-29545.up.railway.app']
 
 # Application definition
 
